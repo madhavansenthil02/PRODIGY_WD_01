@@ -1,0 +1,52 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+/* Fixed navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+  
+/* Navbar list */
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+  
+/* Navbar links */
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+  
+/* Hover effect */
+#navbar a:hover {
+    color: #007BFF;
+}
+
+/* Heading effect */
+.heading {
+    text-align: center;
+    padding-top: 250px;
+    font-size: 3rem;
+}
+  
+/* Scrolled navbar style */
+#navbar.scrolled {
+    background-color: mediumpurple;
+    box-shadow: 0 20px 5px rgba(0,0,0,0.1);
+}
+  
